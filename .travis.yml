@@ -8,5 +8,4 @@ php:
 install:
   - ./setup.sh
   - ./startContainer.sh
-scripts: 
   - ./run_tests_in_container.sh
