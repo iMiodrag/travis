@@ -1,0 +1,12 @@
+sudo: true
+
+language: php
+
+php:
+  - 7.2.15
+
+install:
+  - ./setup.sh
+  - ./startContainer.sh
+scripts: 
+  - ./run_tests_in_container.sh
